@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//#define ll long long
 int fact(int n)
 {
     int dp[10000],i,j;
@@ -21,13 +22,11 @@ int fact(int n)
             carry/=10;
            }
         }
-        //cout<<n<<"!"<<endl;
-        int sum=0;
+        cout<<n<<"!"<<endl;
      for(int k=len-1;k>=0;k--){
-        //cout<<dp[k];
-        sum+=dp[k];
+        cout<<dp[k];
      }
-      return sum;
+      cout<<endl;
     }
 
 
@@ -35,6 +34,6 @@ int main()
 {
     int n;
     while(cin>>n){
-        cout<<fact(n)<<endl;
+        fact(n);
     }
 }
