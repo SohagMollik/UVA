@@ -1,6 +1,6 @@
 # UVA-Online-Judge-Solution
-| Problem | Solution |
-| ------- | -------- |
+|      Problem           |       Solution        |
+| ---------------------- | --------------------- |
 | [100](https://onlinejudge.org/external/1/100.pdf) | [100.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/100%20-%20The%203n%20%2B%201%20problem.cpp) |
 | [10006](https://onlinejudge.org/external/100/10006.pdf) | [10006.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10006%20%20%20Carmichael%20Numbers.cpp) |
 | [10018](https://onlinejudge.org/external/100/10018.pdf) | [10018.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10018%20Reverse%20and%20Add.cpp) |
@@ -23,7 +23,7 @@
 | [10302](https://onlinejudge.org/external/103/10302.pdf) | [10302.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10302%20Summation%20of%20Polynomials.cpp) |
 | [10311](https://onlinejudge.org/external/103/10311.pdf) | [10311.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10311%20Goldbach%20and%20Euler.cpp) |
 | [10323](https://onlinejudge.org/external/103/10323.pdf) | [10323.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10323%20Factorial!%20You%20Must%20be%20Kidding!!!.cpp) |
-| [10324](https://onlinejudge.org/external/103/10324.pdf) | [10324.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10324%20Zeros%20and%20Ones.cpp |
+| [10324](https://onlinejudge.org/external/103/10324.pdf) | [10324.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10324%20Zeros%20and%20Ones.cpp) |
 | [10327](https://onlinejudge.org/external/103/10327.pdf) | [10327.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10327%20Flip%20Sort.cpp) |
 | [10338](https://onlinejudge.org/external/103/10338.pdf) | [10338.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10338%20Mischievous%20Children.cpp) |
 | [10346](https://onlinejudge.org/external/103/10346.pdf) | [10346.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10346%20Peter%E2%80%99s%20Smokes.cpp) |
