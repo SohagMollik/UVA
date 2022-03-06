@@ -117,3 +117,4 @@
 | [884](https://onlinejudge.org/external/8/884.pdf) | [884.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/884%20Factorial%20Factors.CPP) |
 | [913](https://onlinejudge.org/external/9/913.pdf) | [913.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/913%20%20%20Joana%20and%20the%20Odd%20Numbers.cpp) |
 | [914](https://onlinejudge.org/external/9/914.pdf) | [914.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/914%20Jumping%20Champion.cpp) |
+| [12015](https://onlinejudge.org/external/120/12015.pdf) | [12015.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/12015%20Google%20is%20Feeling%20Lucky.cpp) |
