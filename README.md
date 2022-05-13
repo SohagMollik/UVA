@@ -1,5 +1,5 @@
 # UVA-Online-Judge-Solution
-|      Problem           |       Solution        |
+|      Problem Link      |       Solution        |
 | ---------------------- | --------------------- |
 | [100](https://onlinejudge.org/external/1/100.pdf) | [100.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/100%20-%20The%203n%20%2B%201%20problem.cpp) |
 | [10006](https://onlinejudge.org/external/100/10006.pdf) | [10006.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/10006%20%20%20Carmichael%20Numbers.cpp) |
