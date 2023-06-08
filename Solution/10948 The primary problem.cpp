@@ -1,51 +1,72 @@
 #include<bits/stdc++.h>
+#define ll   long long int
+#define pb   push_back
+#define ull  unsigned long long
+#define f    first
+#define s    second
+#define mod  1000000007
+#define nn   "\n"
+#define yes  printf("YES\n");
+#define no   printf("NO\n");
 using namespace std;
-#define N 1000000
- int prime[N];
- void sieve()
- {
-    for(int i=2;i<=N;i++){
-    prime[i]=1;
-    }
-    prime[0]=0;
-    prime[1]=0;
-
-    for(int i=2;i<sqrt(N)+1;i++){
-        if(prime[i]==1){
-            for(int j=2*i;j<=N;j+=i){
-                prime[j]=0;
-            }
-        }
-    }
-
- }
-int main()
+ vector<int>prime;
+void solve()
 {
-    sieve();
-    int n;
-   while(cin>>n){
-    if(n==0)break;
-    else{
-        int ok,temp,ans;
-        for(int i=2;i<n;i++){
-                ok=0;
-             ans=n-i;
-            if(prime[ans]==1){
-                if(prime[i]==1){
-                    temp=i;
-                    ok=1;
-                    break;
-                }
+    int sz=1000001;
+    vector<int>v(sz+1,0);
+    v[0]=1;
+    v[1]=1;
+    for(int i=2;i*i<=sz;i++){
+            if(v[i]==0){
+        for(int j=i*i;j<=sz;j+=i){
+            v[j]=1;
             }
         }
-        if(ok==1)cout<<n<<":\n"<<temp<<"+"<<ans<<endl;
-        else cout<<"NO WAY!\n";
     }
-   }
-
+    prime.pb(2);
+    for(int i=3;i<=sz;i++){
+        if(v[i]==0)prime.pb(i);
+    }
 
 }
 
+int main()
+{
+    ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+ solve();
 
+    int n;
+       while(cin>>n){
+        if(n==0)return 0;
+       else  {
+
+    int low=0,high=prime.size()-1;
+    int flag=0;
+
+    while(low<=high){
+        if(prime[low]+prime[high] == n){
+            cout<<n<<":\n"<<prime[low]<<"+"<<prime[high]<<nn;
+            flag=1;
+            break;
+        }
+        if(prime[low]+prime[high]>n)high--;
+        else low++;
+    }
+
+    for(int i=0;i<prime.size();++i){
+        if(flag==0 && ((prime[i]+prime[i])==n)){
+            cout<<n<<":\n"<<prime[i]<<"+"<<prime[i]<<nn;
+            flag=1;
+            break;
+        }
+    }
+    if(flag==0)cout<<n<<":\n"<<"NO WAY!\n";
+
+        }
+
+       }
+
+    return 0;
+}
 
 
