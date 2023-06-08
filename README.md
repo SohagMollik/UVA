@@ -119,4 +119,4 @@
 | [914](https://onlinejudge.org/external/9/914.pdf) | [914.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/914%20Jumping%20Champion.cpp) |
 | [12015](https://onlinejudge.org/external/120/12015.pdf) | [12015.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/12015%20Google%20is%20Feeling%20Lucky.cpp) |
 | [12798](https://onlinejudge.org/external/127/12798.pdf) | [12798.cpp](https://github.com/SohagMollik/UVA-Online-Judge-Solution/blob/main/Solution/12798%20Handball.cpp) |
-| [10948](https://onlinejudge.org/external/109/10948.pdf) | [10948.cpp(https://github.com/SohagMollik/UVA/blob/main/Solution/10948%20The%20primary%20problem.cpp) |
+| [10948](https://onlinejudge.org/external/109/10948.pdf) | [10948.cpp](https://github.com/SohagMollik/UVA/blob/main/Solution/10948%20The%20primary%20problem.cpp) |
